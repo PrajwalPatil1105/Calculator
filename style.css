@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    height: 650px;
+    background-color: rgba(59, 70, 100, 1);
+    display: grid;
+}
+
+.hero{
+    width:600px;
+    height: 620px;
+    margin-top: 50px;
+    margin-left: 30%;
+    position: absolute;
+    display: grid;  
+}
+
+.hero h2{
+    height: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-family: inter;
+    margin-left: 55px;
+    
+}
+
+
+.display{
+    width: 480px;
+    height: 90px;
+    background-color: rgba(24, 31, 50, 1);
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+
+.display #inp{
+    height: 80px;
+    width: 440px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: inter;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(24, 31, 50, 1);
+    border: none;
+    outline: none;
+    text-align: end;
+}
+
+.display #inp::placeholder{
+    opacity:.5;
+}
+
+
+
+
+
+/* <<----------------------------Key Button----------------------------------->> */
+
+
+
+
+.keys{
+    width: 427px;
+    height: 412px;
+    background-color: rgb(35, 43, 69);
+    margin-top: 158px;
+    margin-left: 50px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows:repeat(5, 50px);
+    padding:35px 20px 20px 35px;
+    row-gap: 35px;
+    column-gap: 18px;
+}
+
+.lastkey{
+    display: grid;
+    grid-template-columns: repeat(2, 199px);
+    column-gap: 18px;
+}
+
+
+.keys button{
+    border-radius: 12px;
+    border: none;
+    font-family: inter;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: center;
+    background-color: rgba(234, 227, 219, 1);
+    color: rgba(59, 70, 100, 1);
+}
+
+.keys #del, #reset{
+    background-color: rgba(100, 114, 153, 1);
+    color: white;
+    font-weight: 550;
+}
+
+.keys #equal{
+    background-color: rgba(209, 63, 48, 1);
+    color: white;
+}
+
